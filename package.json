@@ -1,5 +1,5 @@
 {
-  "name": "material-explorer",
+  "name": "MaterialExplorer",
   "version": "0.0.0",
   "description": "Material Explorer example app showing off material-native components",
   "license": "MIT",
@@ -39,9 +39,9 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "material-native": "0.0.0-alpha.13",
-    "react": "16.0.0-alpha.6",
-    "react-native": "^0.43.4",
-    "react-native-vector-icons": "^4.2.0",
+    "react": "^16.0.0-beta.5",
+    "react-native": "^0.49.1",
+    "react-native-vector-icons": "^4.4.0",
     "react-navigation": "^1.0.0-beta.11"
   },
   "devDependencies": {
