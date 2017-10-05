@@ -14,10 +14,7 @@
   ],
   "author": "Redwerks (http://redwerks.org)",
   "contributors": [
-    "Daniel Friesen <d@danf.ca> (http://danf.ca)",
-    "Yingxin Wu <yingxinwu.g@gmail.com>",
-    "Quentin Valmori (https://github.com/Crash--)",
-    "Alexander Price (https://github.com/alexprice91)"
+    "Daniel Friesen <d@danf.ca> (http://danf.ca)"
   ],
   "homepage": "https://github.com/material-native/material-explorer",
   "bugs": "https://github.com/material-native/material-explorer/issues",
