@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.4",
-    "material-native": "0.0.0-alpha.13",
+    "material-native": "*",
     "react": "^16.0.0-beta.5",
     "react-native": "^0.49.1",
     "react-native-vector-icons": "^4.4.0",
