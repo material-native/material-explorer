@@ -15,8 +15,7 @@
   "plugins": [
     "babel",
     "react",
-    "react-native",
-    "jest"
+    "react-native"
   ],
   "rules": {
     "arrow-parens": [
@@ -180,6 +179,9 @@
     ],
     "react-native/no-color-literals": [
       "error"
+    ],
+    "react/no-unescaped-entities": [
+      "off"
     ]
   },
   "globals": {
@@ -189,6 +191,6 @@
     "setImmediate": false,
     "fetch": false
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jest/recommended"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "root": true
 }
