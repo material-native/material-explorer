@@ -37,11 +37,12 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "material-native": "0.0.0-alpha.13"
-  },
-  "peerDependencies": {
-    "react-native": ">= 0.40",
-    "react-native-vector-icons": ">= 4.0.0"
+    "lodash": "^4.17.4",
+    "material-native": "0.0.0-alpha.13",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.43.4",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.11"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
@@ -51,13 +52,7 @@
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-react-native": "^3.1.0",
     "husky": "^0.14.3",
-    "lint-staged": "^4.2.3",
-    "lodash": "^4.17.4",
-    "react": "16.0.0-alpha.6",
-    "react-element-to-jsx-string": "^12.0.0",
-    "react-native": "^0.43.4",
-    "react-native-vector-icons": "^4.2.0",
-    "react-navigation": "^1.0.0-beta.11"
+    "lint-staged": "^4.2.3"
   },
   "lint-staged": {
     "*.js": [
