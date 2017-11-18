@@ -21,7 +21,7 @@ You may need to open `material-explorer/android` in Android Studio first or setu
 git clone https://github.com/material-native/material-explorer.git # clone the repository
 cd material-explorer # enter the directory
 npm install # install dependencies
-npm run setup-package # Use the included package
+npm run setup # Configure Material Explorer the included material-native package
 
 # In a separate terminal tab:
 react-native run-android
@@ -34,7 +34,7 @@ You can also run `ios/MaterialExplorer.xcodeproj` in XCode in place of `react-na
 git clone https://github.com/material-native/material-explorer.git # clone the repository
 cd material-explorer # enter the directory
 npm install # install dependencies
-npm run setup-package # Use the included package
+npm run setup # Configure Material Explorer the included material-native package
 
 # In a separate terminal tab:
 react-native run-ios
@@ -44,3 +44,5 @@ react-native run-ios
 Material Explorer can use a development copy of material-native (a clone of your git fork of the material-native/material-native repository). You will need to clone repository at or move your existing checkout to `material-explorer/material-native` in order for this to work.
 
 To set up Material Explorer for this after setting up your clone run `npm run setup-custom`. Note that this has to delete the copies of `react` and `react-native` in `material-native/node_modules`, this is necessary to make Material Explorer work but will make tests in material-explorer/material-native until you re-run `npm install`.
+
+You can use the `npm run custom-test` helper to automate `npm install` and `npm test` in material-native/ then running `npm run setup` to restore the Material Explorer afterwards.

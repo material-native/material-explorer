@@ -28,8 +28,10 @@
     ".eslintrc.json"
   ],
   "scripts": {
+    "setup": "ls -d material-native && npm run setup-custom; ls -d material-native || npm run setup-package",
     "setup-package": "echo \"Configuring MaterialExplorer to use included material-native package\" && cp material-native-package.js material-native.js",
     "setup-custom": "echo \"Deleting material-native's copy of react and react-native\" && rm -rf material-native/node_modules/react material-native/node_modules/react-native && echo \"Configuring MaterialExplorer to use custom material-native\" && rm -f material-native.js",
+    "custom-test": "cd material-native; npm install && rm package-lock.json && npm test; cd ../ && npm run setup",
     "start": "node ./node_modules/react-native/local-cli/cli.js start",
     "precommit": "lint-staged",
     "test": "npm run lint",
