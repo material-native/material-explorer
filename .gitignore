@@ -55,3 +55,4 @@ buck-out/
 
 # material-native
 /material-native/
+/material-native.js

@@ -21,6 +21,7 @@ You may need to open `material-explorer/android` in Android Studio first or setu
 git clone https://github.com/material-native/material-explorer.git # clone the repository
 cd material-explorer # enter the directory
 npm install # install dependencies
+cp material-native-package.js material-native.js # Use the included package
 
 # In a separate terminal tab:
 react-native run-android
@@ -33,10 +34,11 @@ You can also run `ios/MaterialExplorer.xcodeproj` in XCode in place of `react-na
 git clone https://github.com/material-native/material-explorer.git # clone the repository
 cd material-explorer # enter the directory
 npm install # install dependencies
+cp material-native-package.js material-native.js # Use the included package
 
 # In a separate terminal tab:
 react-native run-ios
 ```
 
 ## Developing with your own copy of material-native
-Material Explorer can use a development copy of material-native (a clone of your git fork of the material-native/material-native repository). You will need to clone repository at or move your existing checkout to `material-explorer/material-native` in order for this to work. You will also need to manually delete the `material-native/node_modules/react` and `material-native/node_modules/react-native` folders.
+Material Explorer can use a development copy of material-native (a clone of your git fork of the material-native/material-native repository). You will need to clone repository at or move your existing checkout to `material-explorer/material-native` in order for this to work. You will also need to manually delete the `material-native/node_modules/react` and `material-native/node_modules/react-native` folders. If you previously setup Material Explorer you'll need to delete the `material-native.js` you create in the root.
