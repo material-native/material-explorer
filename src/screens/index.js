@@ -1,4 +1,5 @@
 'use strict';
+export {default as ActionButtons} from './ActionButtons';
 export {default as Avatars} from './Avatars';
 export {default as Buttons} from './Buttons';
 export {default as Colors} from './Colors';

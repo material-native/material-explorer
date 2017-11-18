@@ -9,6 +9,7 @@ import {
 	Icons,
 	Ripples,
 	Buttons,
+	ActionButtons,
 	Toggles,
 	TextFields,
 	Avatars,
@@ -64,6 +65,9 @@ const Navigator = StackNavigator({
 	},
 	Buttons: {
 		screen: Buttons,
+	},
+	ActionButtons: {
+		screen: ActionButtons,
 	},
 	Toggles: {
 		screen: Toggles,
