@@ -46,3 +46,7 @@ Material Explorer can use a development copy of material-native (a clone of your
 To set up Material Explorer for this after setting up your clone run `npm run setup-custom`. Note that this has to delete the copies of `react` and `react-native` in `material-native/node_modules`, this is necessary to make Material Explorer work but will make tests in material-explorer/material-native until you re-run `npm install`.
 
 You can use the `npm run custom-test` helper to automate `npm install` and `npm test` in material-native/ then running `npm run setup` to restore the Material Explorer afterwards.
+
+## Screenshots
+
+<img width="230" alt="Colors" src="./screenshots/Colors.png"> <img width="230" alt="Typography" src="./screenshots/Typography.png"> <img width="230" alt="Icons" src="./screenshots/Icons.png"> <img width="230" alt="Ripples" src="./screenshots/Ripples.png"> <img width="230" alt="Buttons" src="./screenshots/Buttons.png"> <img width="230" alt="Action Buttons" src="./screenshots/Action Buttons.png"> <img width="230" alt="Toggles" src="./screenshots/Toggles.png"> <img width="230" alt="Text Fields" src="./screenshots/Text Fields.png"> <img width="230" alt="Avatars" src="./screenshots/Avatars.png"> <img width="230" alt="Dialogs" src="./screenshots/Dialogs.png">

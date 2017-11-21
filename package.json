@@ -34,6 +34,7 @@
     "custom-test": "cd material-native; npm install && rm package-lock.json && npm test; cd ../ && npm run setup",
     "start": "node ./node_modules/react-native/local-cli/cli.js start",
     "precommit": "lint-staged",
+    "jest": "jest",
     "test": "npm run lint",
     "lint": "eslint . --fix"
   },
@@ -50,10 +51,22 @@
     "babel-eslint": "^8.0.0",
     "eslint": "^4.0.0",
     "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-jest": "^21.3.2",
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-react-native": "^3.1.0",
     "husky": "^0.14.3",
-    "lint-staged": "^4.2.3"
+    "jest": "^21.2.1",
+    "lint-staged": "^4.2.3",
+    "mz": "^2.7.0",
+    "wd": "^1.4.1"
+  },
+  "jest": {
+    "notify": true,
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/material-native/",
+      "__tests__/helpers"
+    ]
   },
   "lint-staged": {
     "*.js": [
